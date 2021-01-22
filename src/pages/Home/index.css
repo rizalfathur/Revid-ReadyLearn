@@ -1,0 +1,90 @@
+
+  #styling {
+    background: linear-gradient(35deg,#172b4d 0,#1a174d 100%)!important;
+  }
+
+  #logo {
+      position: sticky;
+      font-weight: medium;
+      padding-left: 50px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      font-size: 30px;
+      font-family: 'Open Sans', sans-serif;
+      color: white;
+  }
+
+  #daftar {
+      text-align: center;
+      border-style: solid;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 1rem;
+      border-radius: 30px;
+      padding-bottom: 10px;
+  }
+
+  #login {
+    text-align: center;
+    margin-left: 1rem;
+  }
+
+
+  .daftar-text{
+      padding-top: 20px ;
+      padding-bottom: 10px;
+  }
+
+  #login-card{
+    margin-top: 80px;
+    background: #F1EBFC;
+    /* width: 30rem; */
+    box-shadow: 0px 4px 20px 5px rgba(0, 0, 0, 0.1);
+    border-style: hidden;
+    
+  }
+
+  #email, #pass, #confirm-pass, #nama, #jurusan{
+    border: none;
+    color: #1a174d;
+    opacity: 0.6;
+  } 
+
+  #form-label{
+    background-color: white;
+    border-bottom: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color: rgba(8, 47, 92, 0.74);;
+  }
+
+   #bottom-text{
+    border-top: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background: #F1EBFC;
+  }
+
+  #btn-login, #btn-daftar{
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1rem;
+    opacity: 0.6;
+    transition: 0.2s;
+  }
+
+  #btn-login:hover{
+    transform: translate(0, -1px);
+  }
+
+  #container-body{
+    background-color: #F1EBFC;
+    padding: 48px;
+  }
+
+
+
+
+  
+
