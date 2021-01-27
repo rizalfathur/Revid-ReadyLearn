@@ -53,11 +53,11 @@ p {
 
 .main-container {
     margin-top: 80px;
-    padding: 2%;
+    padding: 3%;
     padding-bottom: calc(2.5% + 260px);
-    min-height: 100vh;
+    min-height: calc(100vh - 260px);
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 

@@ -85,14 +85,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin: 5% 0;
+        margin-bottom: 3%;
 
         .video-container {
             position: relative;
-            width: 40%;
-            height: 300px;
+            flex: 50%;
+            margin-right: 2%;
+            height: 350px;
             background-color: gray;
-            margin: 0 2.5%;
+            // margin: 2.5%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -118,20 +119,22 @@
 
         .card-container {
             position: relative;
-            width: 40%;
-            height: 300px;
+            flex: 50%;
+            height: 350px;
+            margin-left: 2%;
             box-shadow: 2px 2px 4px 2px rgba(0,0,0, 0.2);
-            margin: 0 2.5%;
             padding: 1.5%;
             border-radius: 4px;
 
-            h4 {
+            h3 {
                 color: #082F5C;
                 font-weight: 700;
+                margin-bottom: 20px!important;
             }
 
             p {
                 color: #082F5C;
+                font-size: 1.25rem;
             }
 
             div {
@@ -184,16 +187,15 @@
         width: 100%;
 
         .title-nav {
-            padding-top: 3%;
-            padding-left: 3%;
             display: flex;
             align-items: flex-start;
-            position: absolute;
-            top: 0;
-            left: 0;
+            // position: absolute;
+            // top: 0;
+            // left: 0;
 
             h1 {
                 line-height: .7;
+                margin-bottom: 20px;
             }
         }
 
@@ -266,6 +268,53 @@
             }
         }
     }
+
+    .course-video-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding-left: 52px;
+        margin-top: 2.5%;
+        
+        .course-video-card {
+            position: relative;
+            flex: 0;
+            height: 290px;
+            background-color: #e7e7e7;
+            border-radius: 12px;
+            margin: 0 25px 25px 0;
+
+            iframe {
+                border-radius: 12px 12px 0 0;
+            }
+            
+            .bottom-card {
+                padding: 15px;
+
+                h5 {
+                    font-weight: 700;
+                    color: #041d39;
+                }
+            }
+
+            .video-number {
+                position: absolute;
+                margin-top: -51px;
+                color: white;
+                font-size: 1.25rem;
+                padding: 2px 8px;
+                left: 75%;
+                border-left: solid 10px transparent;
+                border-right: solid 10px transparent;
+                border-bottom: solid 40px #041d39;
+                border-radius: 4px  ;
+                height: 0;
+                line-height: 2;
+                // width: 100px;
+            }
+        }
+    }
 }
 
 .hamburger {
@@ -291,4 +340,5 @@
 .hamburger:hover {
     cursor: pointer;
 }
+
 

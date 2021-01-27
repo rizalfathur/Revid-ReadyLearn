@@ -6,7 +6,7 @@ const Card = ({title, item, setType, setSide, isEnrolled}) => {
 
     return (
         <div className="card-container">
-            <h4>{title}</h4>
+            <h3>{title}</h3>
             <p>Pembahasan pada kelas ini akan terbagi ke dalam beberapa video yang berisikan:
             </p>
             <div>

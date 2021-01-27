@@ -3,6 +3,7 @@ import Footer from '../../component/Footer'
 import Hamburger from '../../component/header/Paket/Hamburger'
 import Nav from '../../component/header/Paket/Nav'
 import SideMenu from '../../component/header/Paket/SideMenu'
+import VideoCard from '../../component/header/Paket/VideoCard'
 
 const PaketSaya = ({type, side, setType, setSide}) => {
 
@@ -19,6 +20,12 @@ const PaketSaya = ({type, side, setType, setSide}) => {
                 </div>
             </div>
             <SideMenu open={open} setOpen={setOpen} setSide={setSide} setType={setType} type={type} />
+            <div className="course-video-container">
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+                <VideoCard />
+            </div>
         </div>
 
     )
