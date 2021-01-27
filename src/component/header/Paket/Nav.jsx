@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 
-const Nav = () => {
-    const [nav, setNav] = useState('available')
+const Nav = ({ setNav, nav }) => {
     const history = useHistory();
 
     return (

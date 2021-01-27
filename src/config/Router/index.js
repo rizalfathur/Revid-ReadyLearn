@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {Home, Login, Register} from '../../pages'
 import NotFound from '../../pages/NotFound.js'
 import Paket from '../../pages/Paket'
+import PaketSaya from '../../pages/Paket/PaketSaya'
 
 const Routes = () => {
     return (
