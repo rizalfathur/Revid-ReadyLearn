@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 import {Home, Login, Register} from '../../pages'
 import NotFound from '../../pages/NotFound.js'
 import Paket from '../../pages/Paket'
-import PaketSaya from '../../pages/Paket/PaketSaya'
+import Payment from '../../pages/Payment'
 
 const Routes = () => {
     return (
@@ -20,6 +20,9 @@ const Routes = () => {
                 </Route>
                 <Route exact path="/paket">
                     <Paket />
+                </Route>
+                <Route exact path="/payment">
+                    <Payment />
                 </Route>
                 <Route exact path="">
                     <NotFound/>

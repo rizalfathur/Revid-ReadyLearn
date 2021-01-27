@@ -12,9 +12,8 @@ const Card = ({title, item, setType, setSide, isEnrolled}) => {
             <div>
                 {item.map(mat => <p>{mat}</p>)}</div>
             <div className="btn-container">
-                <button className={isEnrolled && 'enrolled'} onClick={() => {setType(title); setSide(item[0])}}>{isEnrolled
-                        ? 'Masuk Kelas'
-                        : 'Beli Paket'}</button>
+                {isEnrolled && <button className='enrolled' onClick={() => {setType(title); setSide(item[0])}}>Masuk Kelas</button>}
+                {!isEnrolled && <button onClick={() => history.push('payment')}>Beli Paket</button>}
             </div>
         </div>
     )

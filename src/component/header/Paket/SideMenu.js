@@ -1,7 +1,7 @@
 import React from 'react'
 import Hamburger from './Hamburger'
 
-const SideMenu = ({open, setOpen, setSide, setType, type}) => {
+const SideMenu = ({open, setOpen, setSide, setType, type, setNav}) => {
     const saintek = [`Matematika`, `Fisika`, `Kimia`, `Biologi`, `TPS`]
     const soshum = [`Geografi`, `Sejarah`, `Ekonomi`, `Sosiologi`, `TPS`]
 
@@ -12,7 +12,7 @@ const SideMenu = ({open, setOpen, setSide, setType, type}) => {
                 ? `side-menu active`
                 : `side-menu`}>
                 <div className="top-side">
-                    <h3>Materi Bagian</h3>
+                    <h3>{type && 'Materi Bagian'}</h3>
                     <Hamburger onClick={setOpen} value={false}/>
                 </div>
                 <div className="content-side">
@@ -30,6 +30,18 @@ const SideMenu = ({open, setOpen, setSide, setType, type}) => {
                                 setOpen(false)
                             }}>{item}</li>)}
                         </div>}</div>
+                </div>
+                <div className="nav-menu-mobile">
+                    <div
+                        className='nav'
+                        onClick={() => {setNav('available'); setOpen(false); setType('')}}>
+                        <h6>Paket video yang tersedia</h6>
+                    </div>
+                    <div
+                        className='nav'
+                        onClick={() => {setNav('mine'); setOpen(false); setType('')}}>
+                        <h6>Paket video saya</h6>
+                    </div>
                 </div>
                 <div className="bottom-side" onClick={() => setType('')}>
                     Kembali
