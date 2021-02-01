@@ -1,0 +1,98 @@
+#heading {
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 2vh;
+}
+
+#spacing {
+    width: 90%;
+}
+
+#admin-table {
+    width: 90%;
+    margin: auto;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 50px !important;
+}
+
+#table-head {
+    background-color: #082F5C;
+    color: #7D92BF;
+}
+
+#admin-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+
+#admin-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#divider-mid {
+    margin-top: -1%;
+}
+
+.subhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 120% !important;
+    font-weight: bold !important;
+}
+
+.desc-head {
+    font-weight: bold;
+    font-size: 140%;
+}
+
+.desc {
+    margin: auto;
+    font-size: 70%;
+}
+
+.desc-end {
+    margin: auto;
+    font-size: 80% !important;
+}
+
+.contoh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#admin-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#footer-div {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-button {
+    border-radius: 10px;
+    width: 30% !important;
+    border: none;
+    font-weight: bold;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.15);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.accept-button {
+    background-color: #2DCE8A;
+    color: white;
+}
+
+.deny-button {
+    background-color: #EF375C;
+    color: white;
+}
