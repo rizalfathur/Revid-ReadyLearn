@@ -24,6 +24,9 @@ const Routes = () => {
                 <Route exact path="/payment">
                     <Payment />
                 </Route>
+                <Route exact path="/admin">
+                    <Admin />
+                </Route>
                 <Route exact path="">
                     <NotFound/>
                 </Route>
